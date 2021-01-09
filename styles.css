@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #1E40AF;
+    --primary-color: #9D174D;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 
@@ -14,6 +14,13 @@ body {
 
 hr {
     margin: 3rem 0rem;
+}
+
+/* spaces */
+
+.margin-md {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .container {
@@ -33,6 +40,7 @@ hr {
 
 /* links */
 .link {
+
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -90,6 +98,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -111,7 +120,7 @@ hr {
 
 /* section */
 
-.section{
+.section {
     padding: 2rem;
 }
 
@@ -119,13 +128,13 @@ hr {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
@@ -137,6 +146,11 @@ hr {
     color: white;
 }
 
-.footer ul{
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
     padding-inline-start: 0px;
 }
